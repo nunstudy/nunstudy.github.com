@@ -1,0 +1,398 @@
+/* screen.css */
+
+/* - CLASSES FOR LINKS - */
+
+a:link, a:visited {
+	color: #666666;
+	background-image: none;
+}
+
+a:hover {
+	color: #7A0019;
+	background-image: none;
+}
+
+a:active {
+	color: #666666;
+	background-image: none;
+}
+
+/* - CUSTOM CLASSES FOR COLOR OF LEFT NAV LINKS - */
+
+a.leftnav:link {
+	color: #666666;
+	background-image: none;
+}
+
+a.leftnav:hover {
+	color: #7A0019;
+	background-image: none;
+}
+
+/* - CLASSES FOR COLOR OF HEADER AND FOOTER LINKS - */
+ul#header li a:link, ul#header li a:visited, div#footer a:link, div#footer a:visited  { 
+	color: #FFF; 
+}
+
+ul#header li a:hover, ul#header li a:active {
+	color: #FFCC66
+}
+
+div#footer a:hover, div#footer a:active  {
+	color: #FFCC66
+}
+
+/* Makes horizontal white line between template header links */
+.linkline {
+	border-right:1px solid white;
+	padding-right:7px;
+	padding-left:3px;
+	text-decoration:none;
+}
+.linkpadding {
+	padding-right:3px;
+	padding-left:3px;
+	text-decoration:none;
+}
+
+
+/* Applied to h1 tags on images */
+.nomargin {
+	margin: 0 0 0 0em;
+}
+
+/* - REDEFINED HTML TAG FOR PAGE BODY - */
+
+/* Specifies base text size and font for all pages */
+body {
+	color: black;
+	background-image: none;
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+	font-size: 0.8em;
+	background-color: rgb(255,255,255);
+}
+
+
+/* Specifies sizes and maroon color for heading tags */
+h1 {font-size: 1.4em;}
+h2 {font-size: 1.3em;}
+h3 {font-size: 1.2em;}
+h4, h5, h6 {font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #7A0019;
+	background-color: transparent;	
+	margin-bottom: -0.5em;
+}
+
+/* STYLES TO CENTER THE PAGE AND INSERT AND BACKGROUND IMAGE */
+
+/* Centers the content on the page. */
+div#wallpaper {
+	width:760px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Adds your choice of background color or image. Choose from several backgrounds in the image_bg folder; replace the image name below with the name of your chosen image. Or use a solid color background, as currently set, and delete or comment out the background-image code and use background-color. If you don't want to use a background image or color, delete this div and style from the HTML. */
+#dot {
+	/*background-image:url("images/bg/dots-maroon.gif");*/
+	background-color:#c1bdb0;
+	background-repeat:repeat;
+}
+
+/* Adds padding to the right side of the parent links so they don't crash into the background */
+.parentpadding {
+	padding-right:8px;
+}
+
+/* END OF CENTERED PAGE STYLES */
+
+
+/* When used in combination with the h2 tag on a site's home page, makes the main home page heading the same size as an h1 tag*/
+.homehead {
+	font-size: 1.4em;
+}
+
+/* Applied to the parent link navigation above the template header */
+.parentLinks {
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+	font-size: 0.9em;
+	width: 760px;
+	background-color: #FFFFFF;
+	padding: 5px 0px 2px 0px;
+	text-align: right; 
+}
+
+/* template header section */	
+ul#header {
+	background-color:#7A0019;
+	color: #FFFFFF;
+	height: 30px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0px;
+	width:760px;
+}
+
+/* - Used to add gray line below Driven to Discover - */
+ul#headerD2D {
+	background-color:#7A0019;
+	color: #FFFFFF;
+	height: 16px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0px;
+	width:760px;
+	border-bottom: 1px solid #999;
+}
+
+/* Aligns template header links to the right */
+ul#header li {
+	float: right;
+	margin: 8px 5px 8px 0px; 
+}
+ul#headerD2D li {
+	float: left;
+	margin: 0px; 
+}
+
+/* Aligns template header graphics to the left */
+ul#header li.header_img {
+	float: left;
+	padding: 0px 0 0px 0;
+	margin: 0px 0 0px 0;
+	height: 30px;
+}
+
+/* Aligns template header graphics to the left */
+ul#headerD2D li.headerD2D_img {
+	float: left;
+	padding: 0px 0 0px 0;
+	margin: 0px 0 0px 0;
+	height: 16px;
+}
+
+/* Breadcrumbs -- includes optional background color */
+div#crumbs {
+	background-color: #ebebeb;
+	font-size: 0.95em;
+}
+
+.crumbs {
+	margin: 0px 0 0px 0;
+	padding: 5px 0px 5px 10px;
+	border-bottom-color: #999;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-color: #999999;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+
+/* Container option for page body with 3 columns separated by gray lines using a background image */
+#container {
+	background-color: #FFFFFF;
+	background-image: url(images/bg/3colbg_center.gif);
+	background-repeat: repeat-y;
+	width: 760px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+#containerNav {
+	background-color: #FFFFFF;
+	background-image: url(images/bg/2colbg_center.gif);
+	background-repeat: repeat-y;
+	width: 760px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+/* Container option for page body with 3 columns separated by gray lines for the left nav and a background color for the right column using a background image */
+
+#containerColor {
+	background-color: #FFFFFF;
+	background-image: url(images/3colbgcolor_center.gif);
+	background-repeat: repeat-y;
+	width: 760px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+	clear: both;
+}
+
+/* Specifies height and width of left navigation section. 070829: Width was changed from 150px to 149px and a 1px right side border was added. This is part of a fix for an obscure Windows IE bug that pushed the body content below the left navigation. See Web Depot for change log. */
+div#leftNav {
+	width: 149px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border-left:0;
+	float:left;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #999999;
+	}
+
+
+/* Creates sections for a list of navigation links - one link per row */
+div#leftNav ul {
+	list-style-type: none;
+	margin: 10px 0px 0 0px;
+	padding: 0px 10px 0 10px;
+	border-bottom: none;
+}
+
+/* Used with left nav links to create a gray dividing line between last link in What's Inside section and home page link */
+div#leftNav ul.bottom {
+ 	border-bottom: 1px solid #999; 
+ 	padding-bottom: 15px;
+ }
+ 
+ /* Home link margin and padding */
+div#leftNav ul#homelink {
+	margin: 14px 0px 10px 0px;
+	padding: 0px 10px 0 10px;
+ }
+
+/* Styles left navigation links */
+div#leftNav ul li {
+	margin: 0 0 4px 0;
+	padding: 0 0 10px 0;
+	list-style-type:none;
+	text-align:left;
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.0em;
+}
+
+/* Left navigation subtitle */
+.leftnavSubtitle {
+	background-image: none;
+	color: #333333;
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 10px 0px 0 0px;
+	padding: 0px 10px 0 10px;
+}
+
+/* For all content to the right of the left navigation */
+div#bodyContainer {
+	float: left;
+	width: 610px;
+	height: 100%;
+}
+
+/* Sets padding for main content area */
+div#bodyContainer div.padding{
+  	padding: 10px 10px 10px 10px; 
+ }
+ 
+/* No columns in the page body. 070829: Changed width from 590px to 570px. Part of a fix for an obscure Windows IE bug that pushed the body content below the left navigation. See the change log on Web Depot. */
+div.column0 {
+	float: left;
+	width: 570px;
+	padding: 10px;
+} 
+/* Center column. 070829: Changed width from 388px to 380px. Part of a fix for an obscure Windows IE bug that pushed the body content below the left navigation. See the change log on Web Depot.*/
+div.column1 {
+	float: left;
+	width: 380px;
+	padding: 10px;
+}
+
+/* Right column */
+div.column2 {
+	height: 100%;
+	float: right;
+	width: 180px;
+	padding: 10px;
+}
+
+/* Non-bold maroon subhead */
+.subheadMaroon {
+	font-family: Verdana, sans-serif;
+	font-size: 1.2em;
+	color: rgb(122,0,25);
+	background-image: none;
+	font-weight: normal;
+	margin: 0 0 -0.5em 0;
+}
+
+/* Clears rows -- anything that floats will start on a new row */
+div.rowClear {
+	clear: both;
+}
+
+/* Global footer section */
+div#footer {
+	width:760px;
+	background: rgb(122,0,25);
+	color: #FFF; 
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 50px;
+	vertical-align: bottom;
+	background-image: none;
+	clear: both;
+}
+
+/* Defines width and padding for list items */
+ul.footerList {
+	width: 740px;
+	list-style-type: none;
+	float:left;
+	padding: 6px 10px 6px 10px;
+	margin: 0;
+	vertical-align: bottom;
+}
+
+/* Aligns footer text and links to the left */
+ul.footerList .left {
+	float: left;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+/* Aligns footer text and links to the right */
+ul.footerList .right {
+	float: right;
+	text-align:left;
+	vertical-align: bottom;
+}
+ul.footerList .rightpadding {
+	float: right;
+	text-align:left;
+	vertical-align: bottom;
+	padding-left:8px;
+}
+/* Adds horizontal white line after the Contact Us link */
+ul.footerList .rightline {
+	float: right;
+	text-align:left;
+	vertical-align: bottom;
+	border-right:1px solid white;
+	padding-right:8px;
+	text-decoration:none;
+}
+
+/* Italic footer text */
+.footeritalic {
+	color: #FFFFFF;
+	background: rgb(122,0,25);
+	background-image: none;
+	font-style: italic;
+	float: left;
+	text-align: left;
+	vertical-align: bottom;
+}

@@ -1,0 +1,386 @@
+a.external {
+	background-color: transparent;
+	background-image: url(/nunstudy/images/external.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: right center;
+	padding-right: 13px;
+}
+
+.clearBoth {
+	width:100%;
+	clear:both;
+}
+
+.ssndPictureBox {
+	width: 256px;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.floatLeft {
+	float: left;
+	margin: 0.25em;
+}
+
+.floatRight {
+	float: right;
+	margin: 0.25em;
+}
+
+.subheading {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+/* Aging with grace page */
+
+#media_list {
+	list-style-type: none;
+	width: 550px;
+	font-size: 1.2em;
+	padding: 0em;
+}
+
+#media_list li {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100px;
+	border: thin solid;
+	padding: 2px;
+	text-align: left;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+
+#media_list li img {
+	text-align: left;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+#media_list li .outlet {
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+#media_list li .date {
+	text-align: right;
+	height: 75px;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+#cover_grid {
+	list-style-type: none;
+	width: 550px;
+	padding: 0em;
+}
+
+#cover_grid li {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 250px;
+	border: thin solid;
+	padding: 2px;
+	text-align: left;
+	background-image: url("/nunstudy/images/dropshadow_back.png");
+	background-repeat: no-repeat;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+
+#cover_grid li img {
+	padding-top: 5px;
+	padding-left: 6px;
+	padding-right: 8px;
+	padding-bottom: 6px;
+	width: 96px;
+	height: 150px;
+}
+
+#cover_grid li .englishTitle {  
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+#cover_grid li .bookTitle {  
+	font-size: 1.0em;
+	font-weight: bold;
+}
+
+#cover_grid li .language {  
+	font-size: 0.9em;
+}
+
+#cover_grid li .publisher {  
+	font-size: 1.0em;
+}
+
+/* Q and A Page */
+
+#q_and_a_toc {
+	list-style-type: none;
+	padding-left: 0.5em;
+	font-size: 1.1em;
+}
+
+#q_and_a_toc li {
+	margin-bottom: 0.25em;
+}
+
+#q_and_a {
+	list-style-type: none;
+}
+
+#q_and_a dt {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+#q_and_a dd {
+	font-size: 1.0em;
+	padding-left: 1.0em;
+	margin-left: 0em;
+}
+
+/* Other Links Page */
+
+#external_links {
+	list-style-image: none;
+	font-size: 1.2em;
+
+}
+
+dl.contact_info dt {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+dl.contact_info dd {
+	font-size: 1.1em;
+	margin-bottom: 1.0em;
+}
+
+/* Publications */
+
+span.television {
+	clear: both;
+	display: block;
+	padding: 0.5em;
+}
+
+span.television span.network {
+	font-size: 1.1em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+span.television span.date {
+	font-style: italic;
+}
+
+span.television span.show {
+	clear: right;
+	padding-right: 1.0em;
+	text-decoration: underline;
+}
+
+span.article {
+	clear: both;
+	display: block;
+	padding: 0.5em;
+}
+
+span.article span.date {
+	font-style: italic;
+}
+
+span.article span.title {
+	clear: right;
+	margin-right: 0.5em;
+	text-decoration: underline;
+}
+
+span.article span.location {
+	font-size: 0.9em;
+}
+
+span.article span.publication {
+	font-size: 1.1em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#publication_list h3.title {
+	margin-top: 1.5em;
+	font-size: 1.3em;
+}
+
+#publication_list p.authors {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#publication_list div.abstract {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-size: 1.0em;
+	background-color: #FFCC66;
+}
+
+#publication_list p.reference {
+	font-style: italic;
+	font-size: 1.2em;
+
+}
+
+/* For Reasearchers */
+
+#data_container {
+	background-color: white;
+}
+
+#data_container.standard {
+	width: 100%;
+	height: 400px;
+	clear: both;
+	vertical-align: bottom;
+}
+
+
+#data_container.fs {
+	position: absolute;
+	left: 1%;
+	top: 1%;
+	width: 98%;
+	height: 95%;
+	vertical-align: bottom;
+}
+
+#data_domains_title {
+	width: 30%;
+	font-weight: bold;
+	background-color: #7A0019;
+	color: #FFCC66;
+	border-style: solid;
+	border-width: thin;
+	border-color: #FFCC66;
+	clear: left;
+	float: left;
+}
+
+#data_fields_title {
+	width: 68%;
+	font-weight: bold;
+	background-color: #7A0019;
+	color: #FFCC66;
+	border-style: solid;
+	border-width: thin;
+	border-color: #FFCC66;
+	float: right;
+}
+
+#dd_fullscreen {
+	cursor: pointer;
+	font-size: 0.8em;
+	text-align: right;
+}
+
+#data_domains {
+	width: 30%;
+	height: 39%;
+	vertical-align: bottom;
+	border-style: solid;
+	border-width: thin;
+	position: relative;
+	overflow: scroll;
+	display: block;
+	margin: 0px;
+	clear: left;
+	float: left;
+}
+
+#data_domains ul {
+	padding-left: 2.0em;
+}
+
+#data_domains ul li {
+	list-style-type: circle;
+	font-size: 1.2em;
+	padding: 0em;
+	cursor: pointer;
+}
+
+#data_domains ul li.selected {
+	list-style-type: square;
+	color: #7A0019;
+	background-color: #FFCC66;
+}
+
+#data_domains ul li a {
+	text-decoration: none;
+}
+
+#data_definitions {
+	width: 68%;
+	height: 39%;
+	border-style: solid;
+	border-width: thin;
+	overflow: scroll;
+	float: right;
+	vertical-align: bottom;
+	margin-bottom: 0.5em;
+
+}
+
+#data_definitions dt {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#data_definitions dt.selected {
+	color: #7A0019;
+	background-color: #FFCC66;
+}
+
+#data_definitions dd {
+	margin-left: 1.0em;
+}
+
+#data_details {
+	height: 59%;
+	width: 100%;
+	margin-top: 1.0em;
+	margin-right: 0.6em;
+	border-style: solid;
+	border-width: thin;
+	overflow: scroll;
+	clear: both;
+	margin-bottom: 2.0em;
+
+}
+
+#content_full {
+    width: 100%;
+    float: left;
+}
+
+#content_left {
+    width: 78%;
+    float: left;
+    /*border:1pt solid #000;*/
+}
+#content_right {
+    float: right;
+    /*border:1pt solid #000;*/
+}
